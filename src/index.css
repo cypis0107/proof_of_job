@@ -1,13 +1,68 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --MAIN-FONT: 'Varela Round', sans-serif;
+  --IBM-FONT: 'IBM Plex Sans', sans-serif;
+  --ROBOTO-FONT: 'Roboto', sans-serif;
+  --NUNITO-FONT: 'Nunito Sans', sans-serif;
+  --BG-B-COLOR: #000000;
+  --BG-W-COLOR: #ffffff;
+  --BG-P-COLOR: #607D8B;
+  --BG-PB-COLOR: #13314A;
+  --BORDER-PB-COLOR: #4d4849;
+  --FONT-COLOR: #ffffff;
+  --RED-COLOR: #ef0454;
+  --FTX-COLOR: #2C2E3B;
+
+}
+
+body {
+  color: var(--FONT-COLOR);
+  background-color: var(--BG-B-COLOR);
+}
+
+a {
+  all: unset;
+}
+
+
+.dark-primary-color {
+  background: #455A64;
+}
+
+.default-primary-color {
+  background: #607D8B;
+}
+
+.light-primary-color {
+  background: #CFD8DC;
+}
+
+.text-primary-color {
+  color: #FFFFFF;
+}
+
+.accent-color {
+  background: #FF4081;
+}
+
+.primary-text-color {
+  color: #212121;
+}
+
+.secondary-text-color {
+  color: #757575;
+}
+
+.divider-color {
+  border-color: #BDBDBD;
 }

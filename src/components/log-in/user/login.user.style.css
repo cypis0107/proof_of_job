@@ -1,0 +1,138 @@
+.sign-in-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #607D8B;
+}
+
+.cu-form {
+    margin-top: 120px;
+    padding: 10px;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #13314A;
+    border: 2px solid #4d4849;
+    border-radius: 10px;
+}
+
+form {
+    width: 80%;
+}
+
+/* // border: 2px solid red; */
+label {
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 6px;
+    margin-top: 20px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 200;
+    /* // border: 2px solid #4d4849; */
+}
+
+.cu-or {
+    margin-top: 120px;
+    padding: 15px;
+    width: auto;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: #13314A;
+    border: 2px solid #4d4849;
+    border-radius: 10px;
+
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    border-radius: 4px;
+
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    /* // border: 2px solid #4d4849; */
+}
+
+button[type="submit"] {
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #bf1650;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+button[type="submit"]:hover {
+    background: rgba(191, 22, 80, 0.4);
+}
+
+button[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+}
+
+hr {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    border: 2px solid #4d4849;
+}
+
+.cu-spacing {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #bf1650;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.buttons:hover {
+    background: rgba(191, 22, 80, 0.4);
+    cursor: pointer;
+}

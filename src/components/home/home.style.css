@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+
+}
+
+.earth {
+
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    z-index: 1;
+
+
+}
+
+.earth-hide {
+    display: none;
+}
+
+.earth .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+.point {
+    will-change: transform;
+    z-index: 2;
+
+}
+
+.point img {
+    width: 50px;
+    height: auto;
+}
+
+.point.hasHash :is(img, div) {
+    cursor: pointer;
+}
+
+.point-continent {
+    border-radius: 10px 10px 10px 10px;
+    padding: 6px;
+    border: none;
+    width: max-content;
+    max-width: 200px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.8);
+    color: #222222;
+    font-size: 1rem;
+
+    opacity: 1;
+}
+
+.point button {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    position: absolute;
+
+    background: #ef0454;
+    border: 2px solid #fff;
+
+}
+
+.point div {
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    width: max-content;
+    max-width: 200px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #222222;
+    font-size: 1.1rem;
+    text-align: center;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: 0.4s cubic-bezier(0.75, -0.5, 0, 1.75);
+    transform-origin: 0 0;
+    position: absolute;
+
+
+}
+
+.point:hover div {
+    transform: scale(1);
+    opacity: 1;
+
+}
+
+
+.loading {
+    background: #ccc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    background: #ccc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.continents {
+    position: relative;
+    left: 152vh;
+    top: 30vh;
+    width: 21vh;
+    height: 60vh;
+    z-index: 1;
+    /* overflow: scroll; */
+    /* border: 2px solid red; */
+}
+
+.continents ul {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: var(--FONT-COLOR);
+    cursor: pointer;
+
+}
+
+.continents ul:hover {
+    font-size: 1.7rem;
+    transition: ease-in-out .40s;
+
+}
+
+.continents li {
+
+    display: flex;
+    justify-content: left;
+    padding-left: 15px;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: var(--FONT-COLOR);
+    cursor: pointer;
+
+}
+
+.continents li:hover {
+    font-size: 1.5rem;
+    transition: ease-in-out .40s;
+}
+
+
+
+
+
+.arrow-move {
+    margin-bottom: 25px;
+    animation: arrow-animation 2s linear infinite;
+}
+
+@keyframes arrow-animation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateX(-0.2vw);
+    }
+
+    100% {
+        transform: translateX(0vw);
+    }
+}

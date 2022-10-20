@@ -1,0 +1,16 @@
+{
+    "find.job": "Find Job",
+    "employers": "Employers",
+    "contact": "Contact",
+    "create.account": "Create your account",
+    "log.in": "Log In",
+    "or": "or",
+    "log.in.using": "log in using",
+    "password": "Password",
+    "job.seeker": "Job Seeker",
+    "employer": "Employer",
+    "email.is.required": "Email is required!",
+    "invalid.email.address": "Invalid email address!",
+    "password.is.required": "Password is required!",
+    "min.length": "Min length is 6 characters"
+}

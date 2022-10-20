@@ -1,0 +1,81 @@
+.account-container-background {
+    background: #607D8B;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.create-account-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    /* // background: #13314A;
+    //  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%); */
+
+}
+
+.ca-boxes {
+    width: 100%;
+    height: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #13314A;
+    /* // padding-right: 20px; */
+}
+
+.ca-title {
+    /* // margin-top: 40px; */
+    font-size: 1.8rem;
+    color: #e0dddd;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* //border: 2px solid red; */
+}
+
+.ca-accounts {
+    margin-top: 160px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    /* // border: 2px solid green; */
+}
+
+.ca-acc-a {
+
+    width: 20%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    color: #e0dddd;
+    /* //line-height: 1.3; */
+    text-align: center;
+    background-color: #161616;
+    align-items: center;
+    justify-content: center;
+    border: 0.8px solid #607D8B;
+    border-radius: 10px;
+}
+
+.ca-acc-a:hover {
+    color: #6f828b;
+    scale: 1.1;
+    letter-spacing: 0.8px;
+    border: 1px solid #4d4849;
+    transition: ease .80s;
+    cursor: pointer;
+}

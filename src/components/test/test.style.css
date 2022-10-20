@@ -1,0 +1,10 @@
+.test-container {
+    margin-top: 200px;
+    height: 120vh;
+    background-color: var(--FONT-COLOR);
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}

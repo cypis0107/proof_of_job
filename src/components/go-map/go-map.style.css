@@ -1,0 +1,44 @@
+.back-map-container {
+    position: relative;
+    /* top: -300px;
+    left: -580px; */
+    z-index: 1;
+}
+
+.map-main-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+
+.close-map-icon:hover {
+    transition: ease .45s;
+    color: #ef0454;
+    cursor: pointer;
+
+}
+
+.map-container {
+    /* flex: 1 60%; */
+    height: 77vh;
+    width: 60vw;
+    border-radius: 20px;
+    outline: 6px solid #2e71b4;
+}
+
+.data-related-container {
+    margin-left: 40px;
+    /* flex: 3 25%; */
+    height: 77vh;
+    border-radius: 20px;
+    border: 6px solid #2e71b4;
+
+
+}
+
+h1 {
+    padding: 10px;
+    text-transform: uppercase;
+}

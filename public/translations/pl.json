@@ -1,0 +1,16 @@
+{
+    "find.job": "Szukaj pracy",
+    "employers": "Strefa pracodawcy",
+    "contact": "Kontakt",
+    "create.account": "Utwórz konto",
+    "log.in": "Zaloguj",
+    "or": "lub",
+    "log.in.using": "zaloguj używając",
+    "password": "Hasło",
+    "job.seeker": "Pracownik",
+    "employer": "Pracodawca",
+    "email.is.required": "Email jest wymagany!",
+    "invalid.email.address": "Niewłaściwy adres email!",
+    "password.is.required": "Hasło jest wymagane!",
+    "min.length": "Hasło powinno mieć co najmniej 6 znaków"
+}
